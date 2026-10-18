@@ -1,0 +1,76 @@
+body {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f3f5ef;
+    color: #25382e;
+    line-height: 1.6;
+}
+
+header, section, footer {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+#nome {
+    color: #1f5c42;
+}
+
+.resumo {
+    font-style: italic;
+}
+
+figure {
+    margin: 16px 0;
+}
+
+.foto-perfil {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imagem-ods {
+    width: 180px;
+    max-width: 100%;
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+.contatos {
+    padding-left: 0;
+    list-style: none;
+}
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+a {
+    color: #1f5c42;
+    text-decoration: underline;
+}
+
+a[href^="mailto:"] {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #a34412;
+}
+
+footer {
+    text-align: center;
+}

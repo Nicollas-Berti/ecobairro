@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro — EcoBairro</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>EcoBairro</h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="login.html">Entrar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <h2>Faça parte do EcoBairro</h2>
+            <p>Preencha os campos para continuar.</p>
+            <p class="aviso">Demonstração acadêmica: utilize dados fictícios. O cadastro não será salvo.</p>
+
+            <form action="login.html">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" required>
+
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" minlength="6" required>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <p>Já tem cadastro? <a href="login.html">Entre aqui</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>EcoBairro — Projeto acadêmico sobre consumo e produção responsáveis.</p>
+    </footer>
+</body>
+</html>
